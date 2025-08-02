@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+    <style>
+        .box{
+            background-color: whitesmoke;
+            font-size: 80px;
+            text-align: center;
+            display: none;
+        }
+        @media (max-width:600px){
+            #box1{
+                display: block;
+            }
+        }
+        @media (min-width: 300px) and (max-width: 500px){
+            #box2{
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- div.box#box$*4-->
+    <div class="box" id="box1">SAMSUNG</div>
+    <div class="box" id="box2">IPHONE</div>
+    <div class="box" id="box3">OPPO</div>
+    <div class="box" id="box4">VIVO</div>
+</body>
+</html>

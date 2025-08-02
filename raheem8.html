@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        .container{
+            width: 900px;
+            border: 3px solid purple;
+            background-color: rgb(250, 226, 205);
+            margin: 33px auto;
+        }
+        
+        .item{
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(248, 238, 238);
+        }
+
+        #fruit{
+            float: left;
+            width: 48%;
+        }
+
+        #stationary{
+            float: left; 
+            width: 48%;
+        }
+
+        #computer{
+           /* float: left; */ 
+            width: 98%;
+            clear: both;
+            clear: left;
+        }
+
+        p, h3{
+            text-align: justify;
+        }
+
+        h1{
+            margin: 23px auto;
+            width: 455px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">  
+        <div id="fruit" class="item">
+            <h3>Fruit</h3>
+            <p id="fruitpara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet assumenda dolore quaerat laudantium nulla ducimus, vel unde, eum consequuntur nam accusantium hic aperiam cum Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, necessitatibus, quam accusantium eos fuga consequatur quae eum quidem voluptatem nihil atque? Et nostrum tempore, repellat minus sapiente ad quisquam tempora non veniam doloremque placeat sit cum vel fuga omnis sequi magnam, quidem iusto consequuntur consequatur. Voluptatibus, maiores. Unde non autem nostrum, earum sed alias dolore id.</p>
+        </div>
+
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet assumenda dolore quaerat laudantium nulla ducimus, vel unde, eum consequuntur nam accusantium hic aperiam cum Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim velit repellendus nam debitis perferendis pariatur reprehenderit consequuntur, dolor esse quo officia molestias nisi aliquam?</p>
+       </div>
+
+       <div id="computer" class="item">
+        <h3>Computer</h3>
+        <p id="computerpara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi ullam velit ex non, ratione corporis hic voluptas iure delectus voluptate modi natus enim! A, quis? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi laudantium obcaecati incidunt officia tempora aliquid omnis! Nisi ad quas, tempora dicta, itaque quam cupiditate quod odit repudiandae rerum aperiam a non, inventore praesentium delectus? Excepturi.</p>
+       </div>
+
+       <div id="glasses" class="item">
+        <h3>Glasses</h3>
+        <p id="computerpara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo eum quod obcaecati nostrum ipsam ex temporibus porro vero corporis enim illum minus, eaque quia aspernatur totam voluptates, earum doloremque maxime placeat. Atque repellat enim, perferendis nesciunt sint ut illum totam maiores rem expedita corporis culpa aliquid fugit dolor quos quidem, reiciendis velit, laudantium adipisci facilis sit! Omnis, ea.</p>
+       </div>
+    </div>
+</body>
+</html>

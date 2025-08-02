@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box shadow and text shadow</title>
+    <style>
+      .container {
+        display: flex;
+      }
+      .card {
+        padding: 23px 12px;
+        /* border: 2px solid black; */
+        margin: 23px 12px;
+        background-color: aquamarine;
+        /* box-shadow: 7px 5px 25px green; */
+        box-shadow: 7px 5px 25px 34px rgba(71, 172, 172, 0.3);
+      }
+      .card h2{
+        text-shadow: 3px 5px antiquewhite;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card" id="card-1">
+        <h2>This is C++ Course</h2>
+        <p>I have started C++ course which does not mean that we will stop this course.we will continue this course to completion.</p>
+      </div>
+      <div class="card" id="card-2">
+        <h2>This is HTML Course</h2>
+        <p>I have started HTML course which does not mean that we will stop this course.we will continue this course to completion.</p>
+      </div>
+      <div class="card" id="card-3">
+        <h2>This is CSS Course</h2>
+        <p>I have started CSS course which does not mean that we will stop this course.we will continue this course to completion.</p>
+      </div>
+    </div>
+  </body>
+</html>

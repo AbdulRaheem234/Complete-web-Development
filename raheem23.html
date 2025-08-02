@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keyframes and Animations</title>
+    <style>
+      .container {
+        background-color: greenyellow;
+        /* justify-content: center; */
+        display: flex;
+        font-size: 50px;
+      }
+      .box {
+        background-color: aquamarine;
+        width: 250px;
+        height: 250px;
+        position: relative;
+        /* animation-name: Abdul-1;
+        animation-duration: 8s;
+        animation-iteration-count: 1; 
+        animation-name: Abdul; 
+         animation-fill-mode: alternate;
+         animation-direction: reverse; */
+
+        /* These properties can be set using this shorthand */
+        /* animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-fill-mode; */
+        animation: Abdul-1 8s ease-in-out 2s 4 backwards;
+
+        /* animation-timing-function: ease-in; */
+        /* suru main slow baad main fast */
+
+        /* animation-timing-function: ease-out; */
+        /* suru main fast baad main slow  */
+
+        /* animation-timing-function: ease-in-out; */
+        /* isme pehle slow hota hai phir fast hote hi slow ho jata hai */
+
+        /* animation-delay: 4s; */
+        /* isme jitna delay time hota hai uske baad animation chalta hai */
+
+        /* animation-fill-mode: forwards; */
+        /* iska matlab yeah hai jitni width side de rkhi hogi vaha par atak jayega */
+      }
+      @keyframes Abdul {
+        from {
+          width: 200px;
+        }
+
+        to {
+          width: 1400px;
+        }
+      }
+      @keyframes Abdul-1 {
+        0% {
+          top: 0px;
+          left: 0px;
+        }
+        25% {
+          top: 250px;
+          left: 0px;
+        }
+        75% {
+          top: 250px;
+          left: 250px;
+        }
+        100% {
+          top: 0px;
+          left: 250px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">This is box</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<!--form action="backend.php"-->
+<!-- <label for="name">Name</label> div tag Name:<input type="Text" name="myName" id="name"> <input type="Submit" value="Submit Now"> <input type="reset" value="Reset Now"> Date: <input type="Date" name="myDate"> Bonus: <input type="Number" name="myBonus"> Are you eligible?: <input type="checkbox" name="myeligibility"> Gender: Male<input type="radio" name="myGender"> Female<input type="radio" name="myGender"> Other<input type="radio" name="myGender"> Write about yourself: <textarea name="myText" cols="40" rows="20"></textarea>-->
+<!--radio button is used to gender male and female -->
+<!--div tag uske baad <label for="car">Car</label> uske baad phir <Select name="myCar" id="car"> uske baad phir <option value="Maruti">Maruti</option> -->
+
+<body>
+    <h2>Form tutorial</h2>
+    <form action="backend.php">
+        <div>
+            Name: <input type="Text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            Role: <input type="Text" name="myRole">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            Date: <input type="Date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="Number" name="myBonus">
+        </div>
+        <br>
+        <div>
+            Are you eligible?: <input type="checkbox" name="myeligibility">
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="myGender"> 
+            Female<input type="radio" name="myGender"> 
+            Other<input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <Select name="myCar" id="car">
+                <option value="Maruti">Maruti</option>
+                <option value="fortuner">fortuner</option>
+                <option value="Defender">Defender</option>
+            </Select>   
+        </div>
+        <br>
+        <div>
+           Write about yourself: <br><textarea name="myText" cols="50" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="Submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+</html>

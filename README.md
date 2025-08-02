@@ -1,3 +1,3 @@
 # Complete Web Development Course
 A Complete Web Development course provides comprehensive training in building websites and web applications, covering both front-end and back-end technologies. These courses typically include instruction in HTML, CSS, JavaScript, and may also cover frameworks like React or Angular, backend languages like Python or Node.js, and database management. The goal is to equip individuals with the skills needed to develop and deploy complete, functional websites and web applications. 
-# A.html
+
